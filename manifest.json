@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "LUX Rewards",
-    "description": "This extension will show you if you can earn LUX Rewards on a qualifying purchase.",
+    "name": "Stock Tracker",
+    "description": "Track your stocks and get notified when the price passes a certain threshold!.",
     "version": "1.0",
     "background": {
       "service_worker": "background.js"
