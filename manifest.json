@@ -1,0 +1,34 @@
+{
+    "manifest_version": 3,
+    "name": "LUX Rewards",
+    "description": "This extension will show you if you can earn LUX Rewards on a qualifying purchase.",
+    "version": "1.0",
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_icon": "lux_rewards_logo.png",
+      "default_popup": "example.html"
+    },
+    "icons": {
+      "128": "lux_rewards_logo.png"
+    },
+    "permissions": [
+      "activeTab",
+      "scripting"
+    ],
+    "web_accessible_resources": [
+      {
+        "matches": [
+          "<all_urls>"
+        ],
+        "resources": [
+          "closeicon.png",
+          "lux_rewards_logo.png"
+        ]
+      }
+    ],
+    "host_permissions": [
+      "<all_urls>"
+    ]
+  }
